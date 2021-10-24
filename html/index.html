@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../images/Cu_si29WcAEC7Ff.jpeg" type="image/x-icon">
+    <title>Calculo de IMC</title>
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <h2>Calculo de IMC</h2>
+            <div class="divider"></div>
+            <table>
+                <tr>
+                    <th>Classificação</th>
+                    <th>IMC</th>
+                </tr>
+
+                <tr>
+                    <td>abaixo de 18,5</td>
+                    <td>abaixo do peso</td>
+                </tr>
+
+                <tr>
+                    <td>entre 18,5 e 24,9</td>
+                    <td>peso normal</td>
+                </tr>
+
+                <tr>
+                    <td>entre 25 e 29,9</td>
+                    <td>sobre peso</td>
+                </tr>
+
+                <tr>
+                    <td>entre 30 e 34,9</td>
+                    <td>obesidade grau 1</td>
+                </tr>
+
+                <tr>
+                    <td>entre 35 e 39,9</td>
+                    <td>obesidade grau 2</td>
+                </tr>
+
+                <tr>
+                    <td>maior ou igual a 40</td>
+                    <td>obesidade grau 3</td>
+                </tr>
+            </table>
+
+            <div class="divider"></div>
+
+            <div>
+                <div class="form-control">
+                    <label for="weight-input">Digite seu peso: </label>
+                    <input type="text" name="weight" id="weight-input" placeholder="Seu peso">
+                    <div class="err">Valor inválido</div>
+                </div>
+
+                <div class="form-control">
+                    <label for="height-input">Digite sua altura: </label>
+                    <input type="text" name="height" id="height-input" placeholder="Sua altura">
+                    <div class="err">Valor inválido</div>
+                </div>
+
+                <div class="form-control">
+                    <input type="button" value="Calcular" class="btn-submit">
+                </div>
+
+                <div class="result"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
