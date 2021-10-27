@@ -8,6 +8,18 @@ body, html{
     font-family: 'Courier New', Courier, monospace;
 }
 
+h2 {
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    height: 20px;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 20px;
+}
+
 .divider {
     width: 100%;
     height: 2px;
@@ -36,28 +48,16 @@ body, html{
     margin-top: 15px;
 }
 
-h2 {
-    text-align: center;
-}
-
-.container table {
+.imc-info {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     text-align: center;
 }
 
-.container td, .container th {
+.imc-info td, .imc-info th {
     padding: 5px;
     border-bottom: 2px solid #0e1d47;
-}
-
-input {
-    width: 50%;
-    height: 20px;
-    font-size: 15px;
-    display: block;
-    margin-bottom: 20px;
 }
 
 .form-control {
